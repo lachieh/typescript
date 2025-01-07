@@ -1,5 +1,5 @@
 {
-  "name": "http-hello-world",
+  "name": "@wasmcloud-examples/http-hello-world",
   "version": "0.1.0",
   "description": "A WebAssembly Component that responds to HTTP requests using the `wasi:http` WIT interface",
   "main": "dist/http-hello-world.js",
@@ -26,5 +26,8 @@
     "@bytecodealliance/jco": "^1.8.1",
     "@types/node": "^22.7.6",
     "typescript": "^5.6.3"
+  },
+  "installConfig": {
+    "hoistingLimits": "dependencies"
   }
 }

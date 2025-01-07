@@ -1,6 +1,6 @@
 {
   "packageManager": "yarn@4.3.1",
-  "name": "@wasmcloud/monorepo",
+  "name": "@wasmcloud/typescript",
   "type": "commonjs",
   "private": true,
   "workspaces": [

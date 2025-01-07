@@ -1,5 +1,5 @@
 {
-  "name": "ts-http-password-checker",
+  "name": "@wasmcloud-examples/http-password-checker",
   "version": "0.1.0",
   "description": "",
   "main": "dist/http-password-checker.js",
@@ -25,6 +25,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "check-password-strength": "^2.0.10",
+    "valibot": "^0.42.1"
+  },
   "devDependencies": {
     "@bytecodealliance/componentize-js": "^0.15.0",
     "@bytecodealliance/jco": "^1.8.1",
@@ -36,8 +40,7 @@
     "tslib": "^2.8.0",
     "typescript": "^5.6.3"
   },
-  "dependencies": {
-    "check-password-strength": "^2.0.10",
-    "valibot": "^0.42.1"
+  "installConfig": {
+    "hoistingLimits": "dependencies"
   }
 }
